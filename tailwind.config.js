@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    // all Google fonts
+    // Ensure fonts with spaces have " " surrounding it.
+    fontFamily: {
+      'PoiretOne': ['"Poiret One"', 'sans-serif'],
+      'Lobster': ['Lobster', 'cursive'],
+      'RacingSansOne': ['"Racing Sans One"', 'sans-serif']
+    },
   },
   variants: {
     extend: {},
