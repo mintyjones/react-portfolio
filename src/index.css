@@ -10,6 +10,5 @@
 @tailwind utilities;
 
 .app-dot {
-    background-position-y: 85%;
-    /* background-size: 122%; */
+    background-position-y: 75%;
 }

@@ -8,25 +8,27 @@ module.exports = {
     screens: {
       'mobileLS': '576px',
       // => @media (min-width: 576px) { ... }
-
       'tablets': '768px',
       // => @media (min-width: 768px) { ... }
-
       'laptops': '992px',
       // => @media (min-width: 992px) { ... }
-
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
-
       'extraLG': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      fontSize: {
+        '1xl': '1.35rem'
+      },
       colors: {
         "primaryColLite" : "#56BD9E",
         "primaryColDark" : "#1C3F34",
         "highlightHigh" : "#404040",
         "textMain" : "#f0f0f0"
+      },
+      spacing: {
+        '7/10': '70%'
       },
       backgroundImage: theme => ({
         'black-panel': "url('./assets/images/blackpanel.svg')",

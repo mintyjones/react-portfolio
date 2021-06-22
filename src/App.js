@@ -4,6 +4,8 @@ import Header from './components/Header'
 import Face from './components/Face'
 import BlackPanel from './assets/images/blackpanel.svg'
 import Hero from './components/Hero'
+import Tagline from './components/Tagline'
+import QuoteLine from './components/QuoteLine'
 
 const App = () => {
 
@@ -36,9 +38,10 @@ const App = () => {
       <div className="m-auto">
         <Header />
         <Hero />
-        <div className="app-dot bg-dot-pattern-sml bg-no-repeat flex bg-fixed justify-center h-auto pt-4">
+        <div className="app-dot bg-dot-pattern-sml bg-no-repeat flex flex-col bg-fixed justify-center items-center h-auto pt-4">
           <Face />
-          
+          <QuoteLine width="1" height="16" rotate="45" />
+          <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
         </div>
         {/* <img src={BlackPanel} alt="panel" /> */}
       </div>    
