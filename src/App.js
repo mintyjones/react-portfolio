@@ -38,8 +38,12 @@ const App = () => {
         <Hero />
         <div className="app-dot bg-dot-pattern-sml bg-no-repeat flex flex-col bg-fixed justify-center items-center h-auto pt-4">
           <Face />
-          <QuoteLine width="1" height="16" rotate="45" />
-          <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
+          <div className="relative mt-8">
+            <div className="absolute bottom-14 left-16">
+              <QuoteLine width="1" height="16" rotate="45" />
+            </div>
+            <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
+          </div>
         </div>
         {/* <img src={BlackPanel} alt="panel" /> */}
       </div>    
