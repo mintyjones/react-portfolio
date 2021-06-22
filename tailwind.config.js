@@ -2,6 +2,9 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    backgroundSize: {
+      '16': '4rem'
+    },
     screens: {
       'mobileLS': '576px',
       // => @media (min-width: 576px) { ... }
@@ -27,7 +30,8 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'black-panel': "url('./assets/images/blackpanel.svg')",
-        'dor-pattern': "url('./assets/images/dot_pattern.svg')",
+        'dot-pattern-sml': "url('./assets/images/dot_pattern_sml.svg')",
+        'dot-pattern': "url('./assets/images/dot_pattern.svg')",
        })
     },
     // all Google fonts

@@ -2,9 +2,11 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="bg-black">
-            <p className="font-PoiretOne text-2xl text-white">Nothing is impossible...</p>
-            <p className="font-RacingSansOne text-lg ml-2 text-primaryColLite">&#123; FULL STACK DEV &#125;</p>
+        <div className="bg-black p-8 w-screen">
+            <p className="flex flex-col items-center">
+                <p className="font-PoiretOne text-3xl text-white">Nothing is impossible...</p>
+                <p className="font-RacingSansOne text-2xl text-primaryColLite pt-4">&#123; ANYTHING IS POSSIBLE &#125;</p>
+            </p>
         </div>
     )
 }
