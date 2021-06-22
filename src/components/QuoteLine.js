@@ -3,14 +3,18 @@ import classnames from 'classnames'
 
 const QuoteLine = ({width, height, rotate}) => {
 
-    const buildClasses = (w,h) => {
+    const buildClasses = () => {
         let tw_width = `w-${width}`
+        let tw_height = `h-${height}`
+        let tw_rotate = `rotate-${rotate}`
+        
+        return (
+            <div className={classnames(`${tw_width} ${tw_height} transform ${tw_rotate} bg-black`)}></div>
+        )
     }
 
     return (
-        <div className={classnames(`w-${width} h-${height} transform rotate-${rotate} bg-black`)}>
-            
-        </div>
+        buildClasses()
     )
 }
 

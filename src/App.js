@@ -31,8 +31,6 @@ const App = () => {
     query: "(min-device-width: 1536px )",
   });
 
-  
-
   return (
     <div className="container mx-auto h-full flex max-w-screen-lg bg-opacity-40 justify-center items-center">
       <div className="m-auto">
