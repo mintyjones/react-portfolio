@@ -10,7 +10,7 @@ const QuoteLine = ({width, height, rotate}) => {
         
         return (
             // <div className={classnames(tw_width, tw_height, "m-h-1", "transform", tw_rotate, "bg-black", "tablets:bg-red-600")}>&nbsp;</div>
-            <div className="tw-1 tw-16 m-h-1 transform tw-45 bg-black tablets:bg-red-600">&nbsp;</div>
+            <div className="w-1 h-16 m-h-1 transform rotate-45 bg-black tablets:bg-red-600">&nbsp;</div>
         )
     }
 
