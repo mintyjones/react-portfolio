@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = ({tablet, laptop, desktop, bigscreen}) => {
+const Navbar = ({laptop}) => {
 
     console.log(laptop)
 

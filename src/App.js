@@ -88,8 +88,8 @@ const App = () => {
           <div className="absolute -left-32 top-10 transform scale-150">
             <Face/>
           </div>
-          <div className="relativeml-20 mt-40">
-            <div className="absolute left-80 top-96">
+          <div className="relative ml-20 mt-40 extraLG:ml-64">
+            <div className="absolute left-0 -top-32 extraLG:-left-28">
               <QuoteLine width={lineWidth['sml']} height={lineHeight['big']} rotation={lineRotation['-70']}/>
             </div>
             <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
@@ -101,14 +101,11 @@ const App = () => {
   return (
     <div className="mx-auto h-full flex max-w-screen-lg bg-opacity-40 justify-center items-center">
       <div className="m-auto w-screen">
-        <Header tablet={isTabletDevice} laptop={isLaptop} desktop={isDesktop} bigscreen={isBigScreen}/>
+        <Header laptop={isLaptop} />
         {(isMobile) 
           ? renderHomeMob() // console.log("Tablet")
           : renderHomeBigscreen() //console.log("Mobile")
-        }       
-        {/* section for mobile portrait */}
-
-        {/* <img src={BlackPanel} alt="panel" /> */}
+        } 
       </div>    
     </div>
   )
