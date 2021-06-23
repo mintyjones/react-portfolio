@@ -81,8 +81,8 @@ const App = () => {
   const renderHomeBigscreen = () => {
     return (
         <div className="relative pl-64 mt-28">
-          <Hero />
-          <div className="absolute top-0 -left-20 w-[600px]">
+          <Hero tablet={isTabletDevice} />
+          <div className="absolute top-0 tablets:-left-56 laptops:-left-20 w-[600px]">
             <img src={DotPattern} alt="panel" />
           </div>
           <div className="absolute -left-32 top-10 transform scale-150">

@@ -16,5 +16,5 @@
     background-position: 0% 50%;
 }
 .skew-test {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 14% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 170px 100%);
 }

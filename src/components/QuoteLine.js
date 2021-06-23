@@ -2,11 +2,6 @@ import React from 'react'
 import classnames from 'classnames'
 
 const QuoteLine = ({width, height, rotation}) => {
-
-    // const lineWidth = {
-    //     'Estrutural': 'w-1',
-    //     'Investimento': 'w-4'
-    //   }
       
     console.log(width)
 
