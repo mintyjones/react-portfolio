@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Navbar = ({laptop}) => {
-
-    console.log(laptop)
+const Navbar = ({tablet}) => {
 
     return (
-        laptop ?
+        tablet ?
         <div className="font-RacingSansOne text-lg">
             <a className="mr-4" href="/">&lt; ABOUT &gt;</a>
             <a className="mr-4" href="/">&lt; PROJECTS &gt;</a>

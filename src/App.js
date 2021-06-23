@@ -31,8 +31,6 @@ const App = () => {
     query: "(min-device-width: 1536px )",
   });
 
-  console.log(isLaptop)
-
   // const initialState = {
   //   mobile: isMobile,
   //   tablet: isTabletDevice,
@@ -101,7 +99,7 @@ const App = () => {
   return (
     <div className="mx-auto h-full flex max-w-screen-lg bg-opacity-40 justify-center items-center">
       <div className="m-auto w-screen">
-        <Header laptop={isLaptop} />
+        <Header tablet={isTabletDevice} />
         {(isMobile) 
           ? renderHomeMob() // console.log("Tablet")
           : renderHomeBigscreen() //console.log("Mobile")
