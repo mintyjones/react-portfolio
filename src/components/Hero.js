@@ -4,8 +4,6 @@ import React from 'react'
 
 const Hero = ({tablet}) => {
 
-    console.log("Is it a tablet", tablet)
-
     let skewStyle = '';
     (tablet) ? skewStyle='skew-test' : skewStyle = ''
 

@@ -4,7 +4,7 @@ const Tagline = ({text}) => {
 
     return (
         <div>
-            <p className="font-Lobster text-1xl tablets:text-4xl laptops:text-5xl whitespace-pre-wrap">{text}</p>
+            <p className="font-Lobster text-2xl tablets:text-4xl laptops:text-5xl whitespace-pre-wrap">{text}</p>
         </div>
     )
 }

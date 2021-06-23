@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Face from './components/Face'
 import DotPattern from './assets/images/dot_pattern.svg'
 import Hero from './components/Hero'
+import About from './components/About'
 import Tagline from './components/Tagline'
 import QuoteLine from './components/QuoteLine'
 
@@ -64,13 +65,27 @@ const App = () => {
       <>
         <Hero />
         <div className="app-dot bg-dot-pattern-sml bg-no-repeat flex flex-col bg-fixed justify-center items-center h-auto pt-4">
-          <Face />
+          <Face face="black"/>
           <div className="relative mt-8">
             <div className="absolute bottom-14 left-16">
               <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
             </div>
             <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
           </div>
+        </div>
+        <div className="absolute z-20">
+          <About/>
+        </div>
+        <div className="relative app-dot bg-dot-pattern-sml bg-no-repeat flex flex-col bg-fixed justify-center items-center h-auto pt-[58rem]">
+          <div className="absolute z-10 top-[26rem]">
+            <Face face="grey"/>
+          </div>
+        </div>
+        <div className="relative mt-8 ml-8 px-6">
+          <div className="absolute bottom-[4rem] left-14">
+            <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+          </div>
+          <Tagline text={"“I truly believe in providing the end user with a feeling of enrichment.”"}/>
         </div>
       </>
     )

@@ -47,7 +47,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        '1xl': '1.35rem'
+        '1xl': '1.35rem',
       },
       colors: {
         "primaryColLite" : "#56BD9E",
@@ -63,6 +63,7 @@ module.exports = {
         'black-panel': "url('./assets/images/blackpanel.svg')",
         'dot-pattern-sml': "url('./assets/images/dot_pattern_sml.svg')",
         'dot-pattern': "url('./assets/images/dot_pattern.svg')",
+        'face-bg': "url('./assets/images/myface.svg')",
        })
     },
     // all Google fonts
