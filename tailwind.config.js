@@ -34,8 +34,8 @@ module.exports = {
       '16': '4rem'
     },
     screens: {
-      'mobileLS': '576px',
-      // => @media (min-width: 576px) { ... }
+      'mobileLS': '640px',
+      // => @media (min-width: 640px) { ... }
       'tablets': '768px',
       // => @media (min-width: 768px) { ... }
       'laptops': '992px',

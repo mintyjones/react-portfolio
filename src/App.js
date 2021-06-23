@@ -11,8 +11,8 @@ const App = () => {
 
   //screen breakpoints
 
-  const isMobile = useMediaQuery({
-    query: "(max-device-width: 767px)",
+  const isMobileLS = useMediaQuery({
+    query: "(min-device-width: 767px)",
   });
 
   const isTabletDevice = useMediaQuery({
@@ -99,10 +99,10 @@ const App = () => {
   return (
     <div className="mx-auto h-full flex max-w-screen-lg bg-opacity-40 justify-center items-center">
       <div className="m-auto w-screen">
-        <Header tablet={isTabletDevice} />
-        {(isMobile) 
-          ? renderHomeMob() // console.log("Tablet")
-          : renderHomeBigscreen() //console.log("Mobile")
+        <Header mobileLS={isTabletDevice} />
+        {(isTabletDevice) 
+          ? renderHomeBigscreen() // console.log("Tablet")
+          : renderHomeMob() //console.log("Mobile")
         } 
       </div>    
     </div>

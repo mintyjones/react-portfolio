@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Navbar = ({tablet}) => {
+const Navbar = ({mobileLS}) => {
 
     return (
-        tablet ?
+        mobileLS ?
         <div className="font-RacingSansOne text-lg">
             <a className="mr-4" href="/">&lt; ABOUT &gt;</a>
             <a className="mr-4" href="/">&lt; PROJECTS &gt;</a>
