@@ -1,7 +1,35 @@
 module.exports = {
+  mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    scale: {
+        '0': '0',
+       '25': '.25',
+        '50': '.5',
+        '75': '.75',
+        '90': '.9',
+       '95': '.95',
+        '100': '1',
+       '105': '1.05',
+       '110': '1.1',
+        '125': '1.25',
+        '150': '1.5',
+       '200': '2',
+      },
+      rotate: {
+       '-180': '-180deg',
+        '-90': '-90deg',
+       '-45': '-45deg',
+       '-70': '-70deg',
+        '0': '0',
+        '45': '45deg',
+        '70': '70deg',
+        '90': '90deg',
+       '135': '135deg',
+        '180': '180deg',
+       '270': '270deg',
+      },
     backgroundSize: {
       '16': '4rem'
     },
@@ -28,7 +56,8 @@ module.exports = {
         "textMain" : "#f0f0f0"
       },
       spacing: {
-        '7/10': '70%'
+        '7/10': '70%',
+        '80': '20rem'
       },
       backgroundImage: theme => ({
         'black-panel': "url('./assets/images/blackpanel.svg')",

@@ -10,5 +10,11 @@
 @tailwind utilities;
 
 .app-dot {
-    background-position-y: 75%;
+    background-position: 0% 75%;
+}
+.app-dot-big {
+    background-position: 0% 50%;
+}
+.skew-test {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 14% 100%);
 }
