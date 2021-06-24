@@ -112,15 +112,37 @@ const App = () => {
   }
 
   return (
-    <div className="mx-auto h-full flex max-w-screen-lg bg-opacity-40 justify-center items-center">
-      <div className="m-auto w-screen">
-        <Header mobileLS={isMobileLS} />
-        {(isTabletDevice) 
-          ? renderHomeBigscreen() // console.log("Tablet")
-          : renderHomeMob() //console.log("Mobile")
-        } 
-      </div>    
-    </div>
+    <div>
+      <header className="bg-primaryColLite">
+        <div>
+          <p className="font-PoiretOne text-xl">Gordon Campbell</p>
+          <p className="font-RacingSansOne text-xl">&lt; FULL STACK DEV &gt;</p>
+        </div>
+        <nav>
+          <a className="mr-4" href="/">&lt; ABOUT &gt;</a>
+          <a className="mr-4" href="/">&lt; PROJECTS &gt;</a>
+          <a className="mr-4" href="/">&lt; BLOG &gt;</a>
+          <a className="mr-4" href="/">&lt; CONTACT &gt;</a>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <section>
+            <div>
+              
+            </div>
+            <div></div>
+            <div>
+              <p className="font-PoiretOne text-3xl tablets:text-[2.35rem] laptops:text-5xl desktop:text-[4.6rem] text-white">Nothing is impossible...</p>
+              <p className="font-RacingSansOne text-2xl tablets:text-[1.95rem] laptops:text-[2.5rem] desktop:text-6xl text-primaryColLite pt-4">&#123; ANYTHING IS POSSIBLE &#125;</p>
+            </div>
+          </section>
+        </section>
+        <section>
+
+        </section>
+      </main>
+    </div>  
   )
 }
 
