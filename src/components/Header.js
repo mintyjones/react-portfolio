@@ -4,10 +4,10 @@ import Navbar from './Navbar'
 
 const Header = ({mobileLS}) => {
     return (
-        <div className="bg-primaryColLite bg-opacity-30 flex items-center justify-between">
+        <header className="bg-primaryColLite flex justify-between py-2 px-4">
             <Title />
             <Navbar mobileLS={mobileLS}/>
-        </div>
+        </header>
     )
 }
 
