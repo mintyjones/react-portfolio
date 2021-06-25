@@ -67,7 +67,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col w-screen">
-      <Header/>
+      <Header mobileLS={isMobileLS}/>
       <main>
         <section className={`relative ${dotBack} app-dot bg-no-repeat bg-fixed flex justify-center h-150 tablets:justify-end tablets:h-[100]`}>
           <div className="absolute z-10 top-32 tablets:-left-16 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
@@ -88,6 +88,9 @@ const App = () => {
             <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
           </div>
         </section>
+        <div className="absolute z-20">
+          <About/>
+        </div>
       </main>
     </div>  
   )
