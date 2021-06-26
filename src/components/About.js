@@ -10,9 +10,9 @@ const About = ({tablet}) => {
     return (
         <div className={`bg-black mt-12 p-7 w-screen tablets:h-[336px] tablets:flex tablets:items-center tablets:justify-end extraLG:justify-center tablets:w-auto ${skewStyle}`}>
             <div className="flex flex-col tablets:items-start">
-                <p className="font-RacingSansOne text-4xl tablets:text-[1.95rem] laptops:text-[2.5rem] desktop:text-6xl text-primaryColLite">who..why..& wot?</p>
+                <p className="font-RacingSansOne text-4xl text-primaryColLite">who..why..& wot?</p>
                 <br/>
-                <div className="font-PoiretOne text-l tablets:text-[2.35rem] laptops:text-5xl desktop:text-[4.6rem] text-white">
+                <div className="font-PoiretOne text-l text-white">
                     <p>Gordon Ian Campbell...........................Scotsman from a tiny town.</p>
                     <br/>
                     <p>I love creating things, Pictures, words, sounds. Anything, really.</p>

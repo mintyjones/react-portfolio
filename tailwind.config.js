@@ -18,6 +18,7 @@ module.exports = {
      '70-v': '0% 70%',
      '85-v': '0% 85%',
      '95-v': '0% 95%',
+     '110-v': '0% 110%',
     },
     scale: {
         '0': '0',
@@ -81,7 +82,6 @@ module.exports = {
         '80': '20rem',
         '100': '28rem',
         '150': '38rem',
-        
         '220': '64rem'
       },
       backgroundImage: theme => ({
