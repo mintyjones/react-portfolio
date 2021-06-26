@@ -8,7 +8,7 @@ const About = ({tablet}) => {
     (tablet) ? skewStyle='skew-test' : skewStyle = ''
 
     return (
-        <div className={`bg-black mt-28 p-7 w-screen tablets:h-[336px] tablets:flex tablets:items-center tablets:justify-end extraLG:justify-center tablets:w-auto ${skewStyle}`}>
+        <div className={`bg-black mt-12 p-7 w-screen tablets:h-[336px] tablets:flex tablets:items-center tablets:justify-end extraLG:justify-center tablets:w-auto ${skewStyle}`}>
             <div className="flex flex-col tablets:items-start">
                 <p className="font-RacingSansOne text-4xl tablets:text-[1.95rem] laptops:text-[2.5rem] desktop:text-6xl text-primaryColLite">who..why..& wot?</p>
                 <br/>

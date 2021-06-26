@@ -81,6 +81,7 @@ module.exports = {
         '80': '20rem',
         '100': '28rem',
         '150': '38rem',
+        
         '220': '64rem'
       },
       backgroundImage: theme => ({

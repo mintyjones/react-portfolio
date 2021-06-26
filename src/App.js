@@ -6,6 +6,8 @@ import DotPattern from './assets/images/dot_pattern.svg'
 import MyFace from './assets/images/myface.svg'
 import MyFaceWht from './assets/images/myface_white.svg'
 import MyFaceGrey from './assets/images/myface_grey.svg'
+import ProjectMain from './assets/images/proj_1.png'
+import ReactLogo from './assets/images/react_logo.png'
 import Hero from './components/Hero'
 import About from './components/About'
 import Tagline from './components/Tagline'
@@ -71,11 +73,13 @@ const App = () => {
     <div className="flex flex-col w-screen">
       <Header mobileLS={isMobileLS}/>
       <main>
+
+        {/* Home page */}
         <section className={`relative ${dotBack} bg-95-v bg-no-repeat flex justify-center h-150 tablets:justify-end tablets:h-[100]`}>
           <div className="absolute z-10 top-32 tablets:-left-16 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
             <img src={MyFace} alt="face" />
           </div>
-          <div className="absolute z-15 top-32 left-12 tablets:-left-12 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
+          <div className="absolute z-15 top-32 ml-2 tablets:-left-12 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
             <img src={MyFaceWht} alt="face" />
           </div>
           { isTabletDevice &&
@@ -93,6 +97,8 @@ const App = () => {
             <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
           </div>
         </section>
+
+        {/* About page */}
         <section className={`relative ${dotBack} bg-85-v bg-no-repeat flex justify-center h-[54rem] tablets:justify-end tablets:h-[100]`}>
           <div className="absolute z-20">
             <About/>
@@ -107,6 +113,31 @@ const App = () => {
           </div>
           <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:pr-20 tablets:text-4xl laptops:text-5xl tablets:justify-end desktop:justify-center ">
             <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+          </div>
+        </section>
+
+        {/* Project page */}
+        <section className={`relative ${dotBack} bg-center bg-no-repeat mt-12 flex justify-center h-[54rem] tablets:justify-end tablets:h-[100]`}>
+          <div>
+            <div className="relative"> 
+              <div className="card flex justify-center items-center">
+                <img className="cover-image" src={ProjectMain} alt="main project" />
+                <img className="icon absolute transform scale-25" src={ReactLogo} alt="main project" />
+              </div>
+              <div className="cardLower flex justify-center items-center">
+                <div className="flex flex-col tablets:items-start ml-2">
+                    <p className="font-RacingSansOne text-2xl tablets:text-[1.95rem] laptops:text-[2.5rem] desktop:text-6xl text-primaryColLite">React Caffeine Locator</p>
+                    <br/>
+                    <div className="font-PoiretOne tablets:text-[2.35rem] laptops:text-5xl desktop:text-[4.6rem] text-white">
+                        <p className="mb-4 ">A React app that reveals information regarding coffee outlets in a nearby radius. Clean, styled and lightweight, it makes extensive use of the Google Maps API and employs Tailwind CSS.</p>
+                        <a className="mr-4" href="/"><span className="mydot"></span><span className=" text-sm">View in browser</span></a>
+                        <a className="mr-4" href="/"><span className="mydot"></span><span className=" text-sm">>View in github</span></a>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            <div></div>
           </div>
         </section>
       </main>

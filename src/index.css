@@ -9,12 +9,55 @@
 @tailwind components;
 @tailwind utilities;
 
-.app-dot {
-    background-position: 0% 70%;
-}
 .app-dot-big {
     background-position: 0% 50%;
 }
 .skew-test {
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 170px 100%);
 }
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 10px solid black;
+  }
+  
+  .card .cover-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(2px);
+    transition: filter 0.25s linear;
+  }
+  
+  .card:hover .cover-image{
+    filter: blur(0);
+  }
+  
+  .card:hover .icon{
+    filter: blur(0);
+  }
+
+  .cardLower {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: black;
+    overflow: hidden;
+    border: 10px solid black;
+  }
+
+  .mydot{
+    background: #56BD9E;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 15px;
+}  
