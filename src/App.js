@@ -6,6 +6,7 @@ import DotPattern from './assets/images/dot_pattern.svg'
 import MyFace from './assets/images/myface.svg'
 import MyFaceWht from './assets/images/myface_white.svg'
 import MyFaceGrey from './assets/images/myface_grey.svg'
+import MyFaceGreyThought from './assets/images/myface_grey_thought.svg'
 import ProjectMain from './assets/images/proj_1.png'
 import ReactLogo from './assets/images/react_logo.png'
 import RubyLogo from './assets/images/ruby_logo.svg'
@@ -64,7 +65,8 @@ const App = () => {
   const lineRotation = {
     '45': 'rotate-45',
     '70': 'rotate-70',
-    '-70': '-rotate-70'
+    '-70': '-rotate-70',
+    '-315': '-rotate-315'
   }
 
   let dotBack = '';
@@ -106,7 +108,7 @@ const App = () => {
             <About/>
           </div>
           <div className="absolute z-15 top-100 transform scale-90 ">
-            <img src={MyFaceGrey} alt="face" />
+            <img src={MyFaceGreyThought} alt="face" />
           </div>
         </section>
         <section>
@@ -139,11 +141,12 @@ const App = () => {
             </div>
           </div>
         </section>
+
         <div className="flex flex-row content-start">
           <img className="transform origin-top scale-80 -ml-32" src={MyFaceGrey} alt="face" />
           <section className="pt-24">
             <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center">
-              <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+              <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
             </div>
             <div className="pl-1">
               <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
@@ -186,6 +189,18 @@ const App = () => {
             </div>
           </div>
         </section>
+        
+        <div className="flex flex-row content-start">
+          <section className="pt-16">
+            <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center">
+              <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
+            </div>
+            <div className="pl-38">
+              <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
+            </div>
+          </section>
+          <img className="transform origin-top scale-80 -mr-24" src={MyFaceGrey} alt="face" />
+        </div>
 
         
       </main>
