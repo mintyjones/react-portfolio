@@ -4,6 +4,8 @@ import Header from './components/Header'
 import Face from './components/Face'
 import DotPattern from './assets/images/dot_pattern.svg'
 import MyFace from './assets/images/myface.svg'
+import MyFaceWht from './assets/images/myface_white.svg'
+import MyFaceGrey from './assets/images/myface_grey.svg'
 import Hero from './components/Hero'
 import About from './components/About'
 import Tagline from './components/Tagline'
@@ -69,9 +71,12 @@ const App = () => {
     <div className="flex flex-col w-screen">
       <Header mobileLS={isMobileLS}/>
       <main>
-        <section className={`relative ${dotBack} app-dot bg-no-repeat bg-fixed flex justify-center h-150 tablets:justify-end tablets:h-[100]`}>
+        <section className={`relative ${dotBack} bg-95-v bg-no-repeat flex justify-center h-150 tablets:justify-end tablets:h-[100]`}>
           <div className="absolute z-10 top-32 tablets:-left-16 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
             <img src={MyFace} alt="face" />
+          </div>
+          <div className="absolute z-15 top-32 left-12 tablets:-left-12 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
+            <img src={MyFaceWht} alt="face" />
           </div>
           { isTabletDevice &&
             <div className="absolute top-38 z-30 tablets:-left-56 laptops:-left-20 w-[600px] transform scale-[0.96] tablets:scale-[0.97] laptop:scale-[0.98] desktop:top-46 desktop:scale-[1.15]">
@@ -88,9 +93,22 @@ const App = () => {
             <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
           </div>
         </section>
-        <div className="absolute z-20">
-          <About/>
-        </div>
+        <section className={`relative ${dotBack} bg-85-v bg-no-repeat flex justify-center h-[54rem] tablets:justify-end tablets:h-[100]`}>
+          <div className="absolute z-20">
+            <About/>
+          </div>
+          <div className="absolute z-15 top-100 tablets:-left-12 tablets:top-32 transform scale-90 tablets:scale-140 tablets:z-40">
+            <img src={MyFaceGrey} alt="face" />
+          </div>
+        </section>
+        <section>
+          <div className="pl-28">
+            <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+          </div>
+          <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:pr-20 tablets:text-4xl laptops:text-5xl tablets:justify-end desktop:justify-center ">
+            <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+          </div>
+        </section>
       </main>
     </div>  
   )
