@@ -9,9 +9,9 @@ import Av from '../assets/images/av_logo.svg'
 
 const Work = () => {
     return (
-        <div className="rounded-md bg-primaryColDark text-white font-PoiretOne mb-2 text-1xl p-4">
+        <div className="rounded-md bg-primaryColDark text-white font-PoiretOne mb-2 text-xl p-4">
             <h3 className="font-RacingSansOne text-3xl mb-4">Worked with...</h3>
-            <div className="flex flex-wrap">
+            <div className="flex flex-col">
                 <div className="flex items-center py-1 mr-1">
                     <img className="mr-1" g src={Windows} alt="Windows" /> 
                     <p>Microsoft</p>
