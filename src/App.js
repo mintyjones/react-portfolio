@@ -17,6 +17,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Tagline from './components/Tagline'
 import QuoteLine from './components/QuoteLine'
+import BottomNav from './components/BottomNav'
 
 const App = () => {
 
@@ -157,7 +158,7 @@ const App = () => {
         </div>
 
         {/* Other Projects */}
-        <section className={`relative ${dotBack} bg-70-v bg-no-repeat flex flex-col justify-center -mt-28`}>
+        <section className={`relative ${dotBack} bg-70-v bg-no-repeat flex flex-col tablets:flex-row tablets:justify-around tablets:items-center justify-center -mt-28`}>
           <div className="relative flex flex-col items-center"> 
             <div className="card flex justify-center items-center">
               <img className="cover-image" src={ProjectMain} alt="main project" />
@@ -174,7 +175,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="relative flex flex-col items-center mt-12"> 
+          <div className="relative flex flex-col items-center mt-12 tablets:mt-0"> 
             <div className="card flex justify-center items-center">
               <img className="cover-image" src={ProjectMain} alt="main project" />
               <img className="icon absolute transform scale-50" src={RailsLogo} alt="main project" />
@@ -207,6 +208,10 @@ const App = () => {
           <Experience/>
         </div>
       </main>
+      <div className="bg-primaryColLite sticky bottom-0 z-50 bg-opacity-90 flex justify-center">
+        <BottomNav/>
+      </div>    
+      
     </div>  
   )
 }
