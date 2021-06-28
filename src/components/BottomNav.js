@@ -37,10 +37,10 @@ const BottomNav = () => {
                     <BottomNavigationAction label="Recents" value="recents" icon={<InfoIcon />} />
                 </Link>
                 <Link to="projects" smooth={true} duration={1500} offset={-50}>
-                    <BottomNavigationAction label="Favorites" value="favorites" icon={<WorkIcon />} />
+                    <BottomNavigationAction label="Favorites" value="favorites" icon={<AppsIcon />} />
                 </Link>
                 <Link to="exp" smooth={true} duration={1500} offset={-50}>
-                    <BottomNavigationAction label="Nearby" value="nearby" icon={<AppsIcon />} />
+                    <BottomNavigationAction label="Nearby" value="nearby" icon={<WorkIcon />} />
                 </Link>
                 <Link to="contact" smooth={true} duration={1500} offset={-50}>
                     <BottomNavigationAction label="Folder" value="folder" icon={<ContactMailIcon />} />
