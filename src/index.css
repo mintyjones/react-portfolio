@@ -60,3 +60,8 @@
     margin-right: 4px;
     width: 15px;
 }  
+
+.auto-space {
+  flex-grow: 1;
+  flex-basis: 0;
+}

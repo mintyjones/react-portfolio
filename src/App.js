@@ -13,6 +13,7 @@ import RubyLogo from './assets/images/ruby_logo.svg'
 import RailsLogo from './assets/images/rails_logo.svg'
 import Hero from './components/Hero'
 import About from './components/About'
+import Experience from './components/Experience'
 import Tagline from './components/Tagline'
 import QuoteLine from './components/QuoteLine'
 
@@ -112,11 +113,11 @@ const App = () => {
           </div>
         </section>
         <section>
-          <div className="pl-28">
-            <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
-          </div>
-          <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center">
-            <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+          <div className="flex flex-col items-center">
+            <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+            <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center">
+              <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+            </div>
           </div>
         </section>
 
@@ -155,7 +156,7 @@ const App = () => {
         </div>
 
         {/* Other Projects */}
-        <section className={`relative ${dotBack} bg-70-v bg-no-repeat mt-12 flex flex-col justify-center -mt-28`}>
+        <section className={`relative ${dotBack} bg-70-v bg-no-repeat flex flex-col justify-center -mt-28`}>
           <div className="relative flex flex-col items-center"> 
             <div className="card flex justify-center items-center">
               <img className="cover-image" src={ProjectMain} alt="main project" />
@@ -201,8 +202,9 @@ const App = () => {
           </section>
           <img className="transform origin-top scale-80 -mr-24" src={MyFaceGrey} alt="face" />
         </div>
-
-        
+        <div className="-mt-28">  
+          <Experience/>
+        </div>
       </main>
     </div>  
   )
