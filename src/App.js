@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { useMediaQuery } from 'react-responsive'
 import Header from './components/Header'
 import Face from './components/Face'
@@ -124,7 +125,7 @@ const App = () => {
         {/* Project page */}
 
         {/* Hero Project */}
-        <section className={`relative ${dotBack} bg-bottom bg-no-repeat mt-12 flex justify-center pb-16 -mb-16`}>
+        <section  id="projects" className={`relative ${dotBack} bg-bottom bg-no-repeat mt-12 flex justify-center pb-16 -mb-16`}>
           <div className="relative"> 
             <div className="card flex justify-center items-center">
               <img className="cover-image" src={ProjectMain} alt="main project" />
@@ -202,7 +203,7 @@ const App = () => {
           </section>
           <img className="transform origin-top scale-80 -mr-24" src={MyFaceGrey} alt="face" />
         </div>
-        <div className="-mt-28">  
+        <div  id="exp" className="-mt-16">  
           <Experience/>
         </div>
       </main>
