@@ -65,3 +65,40 @@
   flex-grow: 1;
   flex-basis: 6em;
 }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formInput {
+  padding: 25px 10px;
+  background-color: #040d14;
+  box-shadow: 0 0 0 2px #56BD9E;
+  border: none;
+  color: #56BD9E;
+}
+
+.submit-btn {
+  background-color: #040d14;
+  color: #56BD9E!important;
+  padding: 15px 50px;
+  border: 2px solid #56BD9E;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+textarea.form-control {
+  height: auto;
+}

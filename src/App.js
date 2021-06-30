@@ -18,6 +18,7 @@ import Experience from './components/Experience'
 import Tagline from './components/Tagline'
 import QuoteLine from './components/QuoteLine'
 import BottomNav from './components/BottomNav'
+import ContactForm from './components/ContactForm'
 
 const App = () => {
 
@@ -193,7 +194,7 @@ const App = () => {
           </div>
         </section>
         
-        <div className="flex flex-row content-start">
+        <div className="flex flex-row content-start overflow-x-hidden">
           <section className="pt-16">
             <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center">
               <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
@@ -208,6 +209,10 @@ const App = () => {
           <Experience/>
         </div>
       </main>
+
+      <ContactForm/>
+
+      {/* Bottom Navigation */}
       <div className="bg-primaryColLite sticky bottom-0 z-50 bg-opacity-90 flex justify-center">
         <BottomNav/>
       </div>    

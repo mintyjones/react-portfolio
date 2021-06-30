@@ -3,6 +3,14 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    flex: {
+      '1': '1 1 0%',
+      auto: '1 1 auto',
+     initial: '0 1 auto',
+      none: 'none',
+      '50': '0 0 50%',
+      '100': '0 0 100%'
+    },
     backgroundPosition: {
       bottom: 'bottom',
      'bottom-4': 'center bottom 1rem',

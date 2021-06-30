@@ -9,9 +9,8 @@ import ContactMailIcon from '@material-ui/icons/ContactMail';
 
 const useStyles = makeStyles({
     root: {
-        width: 500,
-        backgroundColor: "#56BD9E",
-        opacity: 0.6
+        width: "100%",
+        backgroundColor: "rgba(86, 189, 158, 0.3)"
     }
 })
 
