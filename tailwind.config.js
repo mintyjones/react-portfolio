@@ -63,7 +63,10 @@ module.exports = {
       '16': '4rem'
     },
     screens: {
-      'landscape': {'raw': '(orientation: landscape)'},
+      'landscape': {
+        'raw': '(orientation: landscape)',
+        'raw': '(max-width: 640px)'
+      },
       'mobileLS': '640px',
       // => @media (min-width: 640px) { ... }
       'tablets': '768px',

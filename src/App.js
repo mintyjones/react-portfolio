@@ -25,7 +25,7 @@ const App = () => {
   //screen breakpoints
 
   const isMobileLS = useMediaQuery({
-    query: "(min-device-width: 640px)",
+    query: "(orientation: landscape)",
   });
 
   const isTabletDevice = useMediaQuery({
