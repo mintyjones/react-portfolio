@@ -23,7 +23,7 @@ const Navbar = ({mobileLS}) => {
 
     return (
         mobileLS ?
-        <div className="font-RacingSansOne text-lg flex flex-row">
+        <div className="font-RacingSansOne text-lg flex flex-row items-end">
             {links()}
         </div>
         : null

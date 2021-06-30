@@ -1,10 +1,12 @@
 const ContactForm = () => {
     return (
-      <div className='flex justify-center'>
-        <div className='max-w-screen-extraLG'>
+      
+      <div className='flex justify-center mt-12'>
+        <div className='w-full max-w-screen-desktop'>
           <div className='flex flex-wrap -my-15'>
             <div className='flex-100 text-center px-4 w-full'>
               <div className='contactForm'>
+              <p className="font-RacingSansOne text-4xl text-black text-left pl-4">Drop me a line...</p>
                 <form id='contact-form' noValidate>
                   {/* Row 1 of form */}
                   <div className='flex flex-wrap flex-col tablets:flex-row mt-2.5 mb-5'>

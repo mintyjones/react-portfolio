@@ -127,7 +127,8 @@ const App = () => {
         {/* Project page */}
 
         {/* Hero Project */}
-        <section  id="projects" className={`relative ${dotBack} bg-bottom bg-no-repeat mt-12 flex justify-center pb-16 -mb-16`}>
+        <p className="font-RacingSansOne text-4xl text-black text-center tablets:text-left tablets:pl-12 mt-16">PROJEX</p>
+        <section  id="projects" className={`relative ${dotBack} bg-bottom bg-no-repeat mt-4 flex justify-center pb-16 -mb-16`}>
           <div className="relative"> 
             <div className="card flex justify-center items-center">
               <img className="cover-image" src={ProjectMain} alt="main project" />
@@ -209,7 +210,8 @@ const App = () => {
           <Experience/>
         </div>
       </main>
-
+      
+      
       <ContactForm/>
 
       {/* Bottom Navigation */}
