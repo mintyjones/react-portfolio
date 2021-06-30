@@ -1,7 +1,7 @@
 const ContactForm = () => {
     return (
       
-      <div className='flex justify-center mt-12'>
+      <div  id="contact" className='flex justify-center mt-12'>
         <div className='w-full max-w-screen-desktop'>
           <div className='flex flex-wrap -my-15'>
             <div className='flex-100 text-center px-4 w-full'>
