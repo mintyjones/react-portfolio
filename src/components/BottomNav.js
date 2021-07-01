@@ -89,7 +89,7 @@ const BottomNav = () => {
     
 
     return (
-        <div>
+        <div className="bg-primaryColLite sticky bottom-0 z-50 bg-opacity-90 flex justify-center pb-4">
             <BottomNavigation 
                 value={value} 
                 className={classes.root}
