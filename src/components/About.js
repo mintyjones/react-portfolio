@@ -5,18 +5,18 @@ import QuoteLine from './QuoteLine'
 
 
 
-const About = ({tablet, dotBack, lineWidth, lineHeight, lineRotation}) => {
+const About = ({tablet, DotPattern, dotBack, lineWidth, lineHeight, lineRotation}) => {
 
     let skewStyle = '';
-    (tablet) ? skewStyle='skew-test' : skewStyle = ''
+    (tablet) ? skewStyle='skew-about' : skewStyle = ''
 
     return (
         <>
-            <section className={`relative ${dotBack} bg-85-v bg-no-repeat flex justify-center h-[54rem]`}>
+            <section className={`relative ${dotBack} bg-85-v bg-no-repeat flex justify-center h-[54rem] tablets:h-[36rem] tablets:justify-start tablets:mt-44`}>
                 <div className="absolute z-20">
-                    <div  id="about" className={`bg-black mt-12 p-7 w-screen tablets:h-[336px] tablets:flex tablets:items-center tablets:justify-end extraLG:justify-center tablets:w-auto ${skewStyle}`}>
-                        <div className="flex flex-col tablets:items-start">
-                            <p className="font-RacingSansOne text-4xl text-primaryColLite">who..why..& wot?</p>
+                    <div  id="about" className={`bg-black mt-12 p-7 w-screen tablets:py-8 tablets:pl-12 tablets:pr-60 tablets:flex tablets:items-center tablets:justify-start tablets:w-max-[50vw] ${skewStyle}`}>
+                        <div className="flex flex-col tablets:items-start tablets:text-xl tablets:w-2/3">
+                            <p className="font-RacingSansOne text-4xl tablets:text-5xl text-primaryColLite">who..why..& wot?</p>
                             <br/>
                             <div className="font-PoiretOne text-l text-white">
                                 <p>Gordon Ian Campbell...........................Scotsman from a tiny town.</p>
@@ -32,18 +32,24 @@ const About = ({tablet, dotBack, lineWidth, lineHeight, lineRotation}) => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute z-15 top-100 transform scale-90 ">
+                <div className="absolute z-15 top-100 tablets:top-40 tablets:right-44 tablets:z-40 transform scale-90 tablets:scale-[1.7] ">
                     <img src={MyFaceGreyThought} alt="face" />
                 </div>
+                { tablet &&
+                    <div className="absolute top-38 z-30 tablets:-right-56 tablets:top-12 laptops:left-[60vw] w-[600px] transform origin-top-left scale-[0.96] tablets:scale-[2.025] ">
+                        <img src={DotPattern} alt="panel" />
+                    </div>
+                }
             </section>
+            
             <section>
-            <div className="flex flex-col items-center">
-            <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
-            <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center">
-                <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
-            </div>
-            </div>
-        </section>
+                <div className="flex flex-col p-1 tablets:flex-row-reverse items-center tablets:w-2/3 tablets:pl-32">
+                    <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                    <div className="font-Lobster text-center text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:text-5xl">
+                        <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+                    </div>
+                </div>
+            </section>
       </>
     )
 }

@@ -2,21 +2,9 @@ import React from 'react'
 
 import { useMediaQuery } from 'react-responsive'
 import Header from './components/Header'
-import Face from './components/Face'
 import DotPattern from './assets/images/dot_pattern.svg'
-import MyFace from './assets/images/myface.svg'
-import MyFaceWht from './assets/images/myface_white.svg'
-import MyFaceGrey from './assets/images/myface_grey.svg'
-import MyFaceGreyThought from './assets/images/myface_grey_thought.svg'
-import ProjectMain from './assets/images/proj_1.png'
-import ReactLogo from './assets/images/react_logo.png'
-import RubyLogo from './assets/images/ruby_logo.svg'
-import RailsLogo from './assets/images/rails_logo.svg'
-import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
-import Tagline from './components/Tagline'
-import QuoteLine from './components/QuoteLine'
 import BottomNav from './components/BottomNav'
 import ContactForm from './components/ContactForm'
 import Home from './components/Home'
@@ -76,7 +64,7 @@ const App = () => {
   }
 
   let dotBack = '';
-    (isTabletDevice) ? dotBack='' : dotBack = 'bg-dot-pattern-sml'
+  (isTabletDevice) ? dotBack='' : dotBack = 'bg-dot-pattern-sml'
 
 
   return (
@@ -84,8 +72,8 @@ const App = () => {
       <Header mobileLS={isMobileLS}/>
       <main>
         <Home dotBack={dotBack} DotPattern={DotPattern} isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <About dotBack={dotBack}  lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <Projects dotBack={dotBack} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
+        <About tablet={isTabletDevice} dotBack={dotBack} DotPattern={DotPattern} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
+        <Projects lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
         <Experience/>
         <ContactForm/>
       </main>

@@ -11,39 +11,39 @@ const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
     return (
         <>
             <p id="projects" className="font-RacingSansOne text-4xl text-black text-center tablets:text-left tablets:pl-12 mt-16 pt-5">PROJEX</p>
-            <section className={`relative ${dotBack} bg-bottom bg-no-repeat mt-4 flex justify-center pb-16 -mb-16`}>
+            <section className={`relative bg-dot-pattern bg-[70vw] bg-bottom tablets:bg-right bg-no-repeat mt-4 flex justify-center pb-16 -mb-16`}>
             <div className="relative"> 
-                <div className="card flex justify-center items-center">
+                <div className="card flex justify-center items-center tablets:w-[32vw] tablets:h-[35vh]">
                 <img className="cover-image" src={ProjectMain} alt="main project" />
                 <img className="icon absolute transform scale-25" src={ReactLogo} alt="main project" />
                 </div>
-                <div className="cardLower flex justify-center items-center">
+                <div className="cardLower tablets:w-[32vw] flex justify-center items-center">
                 <div className="flex flex-col tablets:items-start ml-2">
-                    <p className="font-RacingSansOne mb-2 text-2xl text-primaryColLite">React Caffeine Locator</p>
-                    <div className="font-PoiretOne text-white">
+                    <p className="font-RacingSansOne mb-2 text-2xl tablets:text-[2.5rem] text-primaryColLite">React Caffeine Locator</p>
+                    <div className="font-PoiretOne text-white tablets:text-[1.4rem]">
                         <p className="mb-4 ">A React app that reveals information regarding coffee outlets in a nearby radius. Clean, styled and lightweight, it makes extensive use of the Google Maps API and employs Tailwind CSS.</p>
-                        <a className="mr-4" href="/"><span className="mydot"></span><span className=" text-sm">View in browser</span></a>
-                        <a className="mr-4" href="/"><span className="mydot"></span><span className=" text-sm">View in github</span></a>
+                        <a className="mr-4" href="/"><span className="mydot"></span><span className="tablets:text-[1.4rem]">View in browser</span></a>
+                        <a className="mr-4" href="/"><span className="mydot"></span><span className="tablets:text-[1.4rem]">View in github</span></a>
                     </div>
                 </div>
                 </div>
             </div>
             </section>
 
-            <div className="flex flex-row content-start">
-            <img className="transform origin-top scale-80 -ml-32" src={MyFaceGrey} alt="face" />
-            <section className="pt-24">
-                <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap flex justify-center">
-                <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
-                </div>
-                <div className="pl-1">
-                <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
-                </div>
-            </section>
+            <div className="flex flex-row content-start tablets:relative">
+                <img className="transform origin-top scale-80 -ml-32 tablets:absolute tablets:top-[-480px] tablets:left-[100px] tablets:scale-150" src={MyFaceGrey} alt="face" />
+                <section className="pt-24 flex flex-col tablets:flex-row-reverse tablets:justify-center tablets:w-full">
+                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-[2rem]">
+                    <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
+                    </div>
+                    <div className="pl-1 tablets:-mt-12">
+                    <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                    </div>
+                </section>
             </div>
 
             {/* Other Projects */}
-            <section className={`relative ${dotBack} bg-70-v bg-no-repeat flex flex-col tablets:flex-row tablets:justify-around tablets:items-center justify-center -mt-28`}>
+            <section className={`relative bg-dot-pattern bg-[70vw] bg-70-v bg-no-repeat flex flex-col tablets:bg-left tablets:flex-row tablets:justify-around tablets:items-center justify-center -mt-28 tablets:mt-12`}>
             <div className="relative flex flex-col items-center"> 
                 <div className="card flex justify-center items-center">
                 <img className="cover-image" src={ProjectMain} alt="main project" />

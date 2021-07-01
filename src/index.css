@@ -12,8 +12,11 @@
 .app-dot-big {
     background-position: 0% 50%;
 }
-.skew-test {
+.skew-hero{
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 170px 100%);
+}
+.skew-about{
+    clip-path: polygon(0 0, 61% 0%, 73% 100%, 0% 100%);
 }
 
 .card {

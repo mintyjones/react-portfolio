@@ -2,13 +2,40 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="175.34471mm"
+   width="285.83615mm"
    height="98.052803mm"
-   viewBox="0 0 175.34471 98.052803"
+   viewBox="0 0 285.83616 98.052803"
    version="1.1"
    id="svg2697"
+   sodipodi:docname="dot_pattern.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview149"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.35918853"
+     inkscape:cx="165.65117"
+     inkscape:cy="-363.31895"
+     inkscape:window-width="1868"
+     inkscape:window-height="1016"
+     inkscape:window-x="52"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2694" />
   <g
@@ -1074,6 +1101,697 @@
        r="4.859417"
        fill="#56bd9e"
        id="circle2975"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2701-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2703-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2705-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2707-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2709-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2711-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2713-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2715-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2717-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="68.63739"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2719-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2733-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2735-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2737-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2739-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2741-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2743-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2745-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2747-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2749-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="79.679108"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2751-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2765-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2767-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2769-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2771-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2773-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2775-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2777-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2779-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2781-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="90.720757"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2783-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2797-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2799-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2801-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2803-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2805-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2807-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2809-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2811-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2813-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="101.76261"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2815-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2829-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2831-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2833-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2835-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2837-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2839-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2841-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2843-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2845-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="112.80421"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2847-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2861-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2863-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2865-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2867-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2869-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2871-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2873-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2875-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2877-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="123.84606"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2879-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2893-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2895-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2897-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2899-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2901-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2903-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2905-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2907-9"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2909-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="134.88766"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2911-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2925-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2927-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2929-2"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2931-5"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2933-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2935-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2937-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2939-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2941-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="145.9295"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2943-0"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="200.1954"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2957-7"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="211.23714"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2959-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="222.27888"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2961-6"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="233.32065"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.54"
+       id="circle2963-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="244.36249"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2965-8"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="255.40411"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2967-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="266.44623"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2969-3"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="277.48776"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       fill-opacity="0.28"
+       id="circle2971-1"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="288.52963"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2973-4"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="299.57114"
+       cy="156.97136"
+       r="4.859417"
+       fill="#56bd9e"
+       id="circle2975-9"
        style="stroke-width:0.264583" />
     <circle
        cx="133.87122"
