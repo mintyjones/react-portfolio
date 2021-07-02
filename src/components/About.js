@@ -47,11 +47,15 @@ const About = ({tablet, DotPattern, dotBack, lineWidth, lineHeight, lineRotation
             
             <section>
                 <div className="flex flex-col p-1 tablets:flex-row-reverse items-start tablets:w-2/3 tablets:pl-32">
-                    <div className="pl-28">
+                    <div className="pl-28 tablets:pl-12">
+                        {tablet ? 
+                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['med']} rotation={lineRotation['70']}/>
+                        :
                         <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                        }
                     </div>
-                    <div className="font-Lobster text-center text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:text-5xl">
-                        <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
+                    <div className="font-Lobster text-center text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:text-right tablets:text-5xl">
+                        <Tagline text={'"I genuinely believe in providing the end user with a feeling of enrichment."'}/>
                     </div>
                 </div>
             </section>

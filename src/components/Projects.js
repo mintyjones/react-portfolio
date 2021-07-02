@@ -8,10 +8,10 @@ import QuoteLine from './QuoteLine'
 import MyFaceGrey from '../assets/images/myface_grey.svg'
 import MyFaceGreyThought from '../assets/images/myface_grey_thought.svg'
 
-const Projects = ({lineWidth, lineHeight, lineRotation}) => {
+const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
     return (
         <>
-            <p id="projects" className="font-RacingSansOne text-4xl tablets:text-[3.5rem] text-black text-center tablets:pl-12 mt-16 pt-5">PROJECTS</p>
+            <p id="projects" className="font-RacingSansOne text-4xl tablets:text-[3.5rem] text-black text-center tablets:pl-12 mt-16 tablets:mt-48 pt-5">PROJECTS</p>
             <section className={`relative bg-dot-pattern bg-[70vw] bg-bottom tablets:bg-right bg-no-repeat mt-4 flex justify-center pb-16 -mb-16`}>
             <div className="relative"> 
                 <div className="card flex justify-center items-center tablets:w-[32vw] tablets:h-auto">
@@ -35,12 +35,16 @@ const Projects = ({lineWidth, lineHeight, lineRotation}) => {
                 <img className="filter-black transform origin-top absolute scale-80 -ml-32 tablets:absolute tablets:top-[-480px] tablets:left-[100px] tablets:scale-150" src={MyFaceGrey} alt="face" />
                 <img className="transform origin-top scale-80 -ml-32 tablets:absolute tablets:top-[-480px] tablets:left-[98px] tablets:scale-150" src={MyFaceGrey} alt="face" />
                 <section className="pt-24 flex flex-col tablets:flex-row-reverse tablets:justify-center tablets:w-full">
-                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-5xl tablets:pl-100 tablets:pr-20 tablets:text-right">
+                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-5xl tablets:pl-32 tablets:pr-20 tablets:text-right">
                         <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
                     </div>
-                    <div className="pl-1 tablets:-mt-12">
+                        {isTabletDevice ? 
+                        <div className="tablets:-mt-16">
+                            <QuoteLine width={lineWidth['sml']} height={lineHeight['med']} rotation={lineRotation['-70']}/>
+                        </div>
+                        :
                         <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
-                    </div>
+                        }
                 </section>
             </div>
 
@@ -85,12 +89,16 @@ const Projects = ({lineWidth, lineHeight, lineRotation}) => {
                     <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center tablets:text-5xl tablets:pr-[26vw] tablets:text-left">
                         <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
                     </div>
-                    <div className="pl-[11.5rem] -mt-8">
-                        <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
+                    <div className="pl-[11.5rem] -mt-8 tablets:pl-[48rem]">
+                        {isTabletDevice ? 
+                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['med']} rotation={lineRotation['70']}/>
+                        :
+                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
+                        }
                     </div>
                 </section>
                 <img className="filter-black transform origin-top scale-80 -mr-24 tablets:absolute tablets:-top-100 tablets:left-[42vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
-                <img className="transform origin-top scale-80 -mr-24 tablets:absolute tablets:-top-100 tablets:left-[41.8vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
+                <img className="transform origin-top scale-80 -mr-24 right-0 absolute tablets:-top-100 tablets:left-[41.8vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
             </div>
         </>
     )

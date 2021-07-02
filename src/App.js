@@ -73,7 +73,7 @@ const App = () => {
       <main>
         <Home dotBack={dotBack} DotPattern={DotPattern} isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
         <About tablet={isTabletDevice} dotBack={dotBack} DotPattern={DotPattern} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <Projects lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
+        <Projects isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
         <Experience isTabletDevice={isTabletDevice} DotPattern={DotPattern}  lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
         <ContactForm/>
       </main>

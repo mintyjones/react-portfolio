@@ -9,7 +9,7 @@ import Av from '../assets/images/av_logo.svg'
 
 const Work = () => {
     return (
-        <div className="rounded-[1.375rem] bg-primaryColDark text-white font-PoiretOne mb-4 text-xl p-4 tablets:mb-2">
+        <div className="rounded-[1.375rem] bg-primaryColDark text-white font-PoiretOne mb-4 text-xl p-4 tablets:mb-2 tablets:p-8">
             <h3 className="font-RacingSansOne text-3xl mb-4">Worked with...</h3>
             <div className="flex flex-wrap">
                 <div className="flex items-center py-1 mr-1 auto-space">

@@ -17,7 +17,7 @@ const Experience = ({isTabletDevice, DotPattern, lineWidth, lineHeight, lineRota
         <>
             <div id="exp" className="flex relative -mt-16 tablets:mt-12 tablets:justify-end">
                 { isTabletDevice &&
-                    <div className="absolute top-38 z-30 tablets:-left-56 laptops:left-[-48vw] w-[600px] transform origin-top-left laptop:scale-[0.98] desktop:top-40 desktop:scale-[2.11]">
+                    <div className="absolute top-38 z-40 tablets:-left-56 laptops:left-[-56vw] w-[600px] transform origin-top-left laptop:scale-[0.98] desktop:top-40 desktop:scale-[2.28]">
                         <img src={DotPattern} alt="panel" />
                     </div>
                 }

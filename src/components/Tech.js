@@ -11,7 +11,7 @@ import Sass from '../assets/images/sass_logo.svg'
 
 const Tech = () => {
     return (
-        <div className="rounded-[1.375rem] bg-primaryColDark text-white font-PoiretOne mb-2 text-xl p-4">
+        <div className="rounded-[1.375rem] bg-primaryColDark text-white font-PoiretOne mb-2 text-xl p-4 tablets:p-8">
             <h3 className="font-RacingSansOne text-3xl mb-4">Tech Stack...</h3>
             <div className="flex flex-wrap">
                 <div className="flex items-center py-1 mr-1 auto-space">
