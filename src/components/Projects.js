@@ -6,6 +6,7 @@ import RailsLogo from '../assets/images/rails_logo.svg'
 import Tagline from './Tagline'
 import QuoteLine from './QuoteLine'
 import MyFaceGrey from '../assets/images/myface_grey.svg'
+import MyFaceGreyThought from '../assets/images/myface_grey_thought.svg'
 
 const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
     return (
@@ -13,7 +14,7 @@ const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
             <p id="projects" className="font-RacingSansOne text-4xl text-black text-center tablets:text-left tablets:pl-12 mt-16 pt-5">PROJEX</p>
             <section className={`relative bg-dot-pattern bg-[70vw] bg-bottom tablets:bg-right bg-no-repeat mt-4 flex justify-center pb-16 -mb-16`}>
             <div className="relative"> 
-                <div className="card flex justify-center items-center tablets:w-[32vw] tablets:h-[35vh]">
+                <div className="card flex justify-center items-center tablets:w-[32vw] tablets:h-auto">
                 <img className="cover-image" src={ProjectMain} alt="main project" />
                 <img className="icon absolute transform scale-25" src={ReactLogo} alt="main project" />
                 </div>
@@ -33,23 +34,23 @@ const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
             <div className="flex flex-row content-start tablets:relative">
                 <img className="transform origin-top scale-80 -ml-32 tablets:absolute tablets:top-[-480px] tablets:left-[100px] tablets:scale-150" src={MyFaceGrey} alt="face" />
                 <section className="pt-24 flex flex-col tablets:flex-row-reverse tablets:justify-center tablets:w-full">
-                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-[2rem]">
-                    <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
+                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-5xl tablets:pl-100 tablets:pr-20 tablets:text-right">
+                        <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
                     </div>
                     <div className="pl-1 tablets:-mt-12">
-                    <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                        <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
                     </div>
                 </section>
             </div>
 
             {/* Other Projects */}
-            <section className={`relative bg-dot-pattern bg-[70vw] bg-70-v bg-no-repeat flex flex-col tablets:bg-left tablets:flex-row tablets:justify-around tablets:items-center justify-center -mt-28 tablets:mt-12`}>
+            <section className={`relative bg-dot-pattern bg-70-v tablets:bg-70-dv bg-no-repeat flex flex-col tablets:flex-row tablets:justify-between tablets:items-center justify-center tablets:px-16 -mt-28 tablets:mt-48 desktop:px-0 desktop:justify-around tablets:h-[370px]`}>
             <div className="relative flex flex-col items-center"> 
-                <div className="card flex justify-center items-center">
+                <div className="card flex justify-center items-center tablets:w-[24vw] tablets:h-auto">
                 <img className="cover-image" src={ProjectMain} alt="main project" />
                 <img className="icon absolute transform scale-50" src={RubyLogo} alt="main project" />
                 </div>
-                <div className="cardLower flex justify-center items-center">
+                <div className="cardLower flex justify-center items-center tablets:w-[24vw] ">
                 <div className="flex flex-col tablets:items-start ml-2">
                     <p className="font-RacingSansOne mb-2 text-2xl text-primaryColLite">Terminal R.P.S.G</p>
                     <div className="font-PoiretOne text-white">
@@ -61,11 +62,11 @@ const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
             </div>
 
             <div className="relative flex flex-col items-center mt-12 tablets:mt-0"> 
-                <div className="card flex justify-center items-center">
+                <div className="card flex justify-center items-center tablets:w-[24vw] tablets:h-auto">
                 <img className="cover-image" src={ProjectMain} alt="main project" />
                 <img className="icon absolute transform scale-50" src={RailsLogo} alt="main project" />
                 </div>
-                <div className="cardLower flex justify-center items-center">
+                <div className="cardLower flex justify-center items-center tablets:w-[24vw] ">
                 <div className="flex flex-col tablets:items-start ml-2">
                     <p className="font-RacingSansOne mb-2 text-2xl text-primaryColLite">2-Way Service App</p>
                     <div className="font-PoiretOne text-white">
@@ -78,16 +79,16 @@ const Projects = ({dotBack, lineWidth, lineHeight, lineRotation}) => {
             </div>
             </section>
 
-            <div className="flex flex-row content-start overflow-x-hidden">
-                <section className="pt-16">
-                    <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center">
-                    <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
+            <div className="flex flex-row content-start overflow-x-auto tablets:overflow-x-visible tablets:relative tablets:flex-col-reverse">
+                <section className="pt-16 tablets:pt-24 tablets:flex tablets:flex-col-reverse">
+                    <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center tablets:text-5xl tablets:pr-[26vw] tablets:text-left">
+                        <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
                     </div>
                     <div className="pl-38">
-                    <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
+                        <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
                     </div>
                 </section>
-                <img className="transform origin-top scale-80 -mr-24" src={MyFaceGrey} alt="face" />
+                <img className="transform origin-top scale-80 -mr-24 tablets:absolute tablets:-top-100 tablets:left-[42vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
             </div>
         </>
     )
