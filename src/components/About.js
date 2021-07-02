@@ -32,7 +32,10 @@ const About = ({tablet, DotPattern, dotBack, lineWidth, lineHeight, lineRotation
                         </div>
                     </div>
                 </div>
-                <div className="absolute z-15 top-100 tablets:top-40 tablets:right-44 tablets:z-40 transform scale-90 tablets:scale-[1.7] ">
+                <div className="absolute z-10 top-100 tablets:top-40 tablets:right-44 tablets:z-40 transform scale-90 tablets:scale-[1.7] ">
+                    <img className="filter-black" src={MyFaceGreyThought} alt="face" />
+                </div>
+                <div className="absolute z-10 top-100 tablets:top-40 tablets:right-[11.2rem] tablets:z-40 transform scale-90 tablets:scale-[1.7] ">
                     <img src={MyFaceGreyThought} alt="face" />
                 </div>
                 { tablet &&
@@ -43,8 +46,10 @@ const About = ({tablet, DotPattern, dotBack, lineWidth, lineHeight, lineRotation
             </section>
             
             <section>
-                <div className="flex flex-col p-1 tablets:flex-row-reverse items-center tablets:w-2/3 tablets:pl-32">
-                    <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                <div className="flex flex-col p-1 tablets:flex-row-reverse items-start tablets:w-2/3 tablets:pl-32">
+                    <div className="pl-28">
+                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
+                    </div>
                     <div className="font-Lobster text-center text-2xl px-1 whitespace-pre-wrap flex justify-center tablets:text-5xl">
                         <Tagline text={'"I truly believe in providing the end user with a feeling of enrichment."'}/>
                     </div>

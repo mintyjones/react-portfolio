@@ -9,6 +9,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.mirror {
+  transform: scale(-1.8,1.8);
+}
+
+.filter-black {
+  filter: brightness(0) saturate(100%);
+}
+
 .app-dot-big {
     background-position: 0% 50%;
 }
