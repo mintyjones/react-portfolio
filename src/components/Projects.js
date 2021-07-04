@@ -49,7 +49,7 @@ const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
             </div>
 
             {/* Other Projects */}
-            <section className={`relative bg-dot-pattern bg-70-v tablets:bg-70-dv bg-no-repeat flex flex-col tablets:flex-row tablets:justify-between tablets:items-center justify-center tablets:px-16 -mt-28 tablets:mt-48 desktop:px-0 desktop:justify-around tablets:h-[370px]`}>
+            <section className={`relative bg-dot-pattern bg-70-v bg-no-repeat flex flex-col tablets:flex-row tablets:justify-between tablets:items-center justify-center tablets:px-16 -mt-28 tablets:mt-48 desktop:px-0 desktop:justify-around tablets:h-[370px]`}>
             <div className="relative flex flex-col items-center"> 
                 <div className="card flex justify-center items-center tablets:w-[24vw] tablets:h-auto">
                 <img className="cover-image" src={ProjectMain} alt="main project" />
@@ -84,7 +84,7 @@ const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
             </div>
             </section>
 
-            <div className="flex flex-row content-start overflow-x-auto tablets:overflow-x-visible tablets:relative tablets:flex-col-reverse">
+            <div className="flex flex-row content-start overflow-x-hidden tablets:overflow-x-visible tablets:relative tablets:flex-col-reverse">
                 <section className="pt-16 tablets:pt-24 tablets:flex tablets:flex-col-reverse">
                     <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center tablets:text-5xl tablets:pr-[26vw] tablets:text-left">
                         <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
@@ -97,8 +97,8 @@ const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
                         }
                     </div>
                 </section>
-                <img className="filter-black transform origin-top scale-80 -mr-24 tablets:absolute tablets:-top-100 tablets:left-[42vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
-                <img className="transform origin-top scale-80 -mr-24 right-0 absolute tablets:-top-100 tablets:left-[41.8vw] tablets:scale-[1.2]" src={MyFaceGreyThought} alt="face" />
+                <img className="filter-black transform origin-top scale-80 tablets:absolute tablets:-top-100 tablets:left-[42vw] tablets:scale-[1.2] z-10" src={MyFaceGreyThought} alt="face" />
+                <img className="transform origin-top scale-80 tablets:absolute tablets:-top-100 tablets:left-[41.8vw] tablets:scale-[1.2] z-20" src={MyFaceGreyThought} alt="face" />
             </div>
         </>
     )

@@ -68,7 +68,7 @@ const App = () => {
 
 
   return (
-    <div className="flex flex-col w-screen">
+    <div className="flex flex-col w-screen bg-white dark:bg-black">
       <Header mobileLS={isMobileLS}/>
       <main>
         <Home dotBack={dotBack} DotPattern={DotPattern} isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
