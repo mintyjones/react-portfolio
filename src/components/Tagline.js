@@ -3,7 +3,7 @@ import React from 'react'
 const Tagline = ({text}) => {
 
     return (
-        <p>{text}</p>
+        <p className="dark:text-white">{text}</p>
     )
 }
 

@@ -33,7 +33,7 @@ const Home = ({dotBack, DotPattern, isTabletDevice, lineWidth, lineHeight, lineR
                     <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
                     }
                 </div>
-                <div className="font-Lobster text-2xl px-1 text-center whitespace-pre-wrap flex justify-center tablets:pl-[8vw] tablets:text-left tablets:items-end tablets:text-4xl laptops:text-5xl tablets:justify-end desktop:justify-center ">
+                <div className="font-Lobster text-black text-2xl px-1 text-center whitespace-pre-wrap flex justify-center tablets:pl-[8vw] tablets:text-left tablets:items-end tablets:text-4xl laptops:text-5xl tablets:justify-end desktop:justify-center ">
                     <Tagline text={"I've been coding since I was 9 years old.\nI've still got so much to learn"}/>
                 </div>
         </section>

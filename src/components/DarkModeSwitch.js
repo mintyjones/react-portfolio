@@ -45,9 +45,21 @@ export default function CustomizedSwitches() {
     checkedC: true
   });
 
+  const toggleMode = () => {
+    if(localStorage.theme === undefined){
+      localStorage.theme = 'dark';
+    }
+    localStorage.theme === 'light' ? localStorage.theme = 'dark' : localStorage.theme = 'light';
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }
+
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
-    localStorage.theme === 'dark' ? localStorage.setItem('theme', "dark") : localStorage.setItem('theme', "dark");
+    toggleMode();
   };
 
 
