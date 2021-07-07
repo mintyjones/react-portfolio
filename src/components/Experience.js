@@ -38,20 +38,20 @@ const Experience = ({isTabletDevice, DotPattern, lineWidth, lineHeight, lineRota
             </div>
             { isTabletDevice &&
                 <div className="relative">
-                    <div className="absolute transform mirror origin-top-right top-[-32rem] right-[35vw] z-15">
-                        <img className="filter-black" src={MyFaceGreyThought} alt="panel" />
-                    </div>
-                    <div className="absolute transform mirror origin-top-right top-[-32rem] right-[35.2vw] z-10">
+                    <div className="absolute transform mirror origin-top-right top-[-40rem] right-[35.2vw] z-10">
                         <img src={MyFaceGreyThought} alt="panel" />
                     </div>
-                    <section>
+                    <div className="font-Lobster text-center text-2xl px-1 flex justify-center tablets:text-5xl tablets:pr-[300px] mt-28">
+                        <Tagline text={'"Don\'t worry. I\'ve got more to learn"'}/>
+                    </div>
+                    {/* <section>
                         <div className="flex flex-col p-1 tablets:flex-row-reverse items-center tablets:w-2/3 tablets:pl-32">
                             <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
                             <div className="font-Lobster text-center text-2xl px-1 flex justify-center tablets:text-5xl mt-44">
                                 <Tagline text={'"Don\'t worry. I\'ve got more to learn"'}/>
                             </div>
                         </div>
-                    </section> 
+                    </section>  */}
                 </div>
             }
         </>

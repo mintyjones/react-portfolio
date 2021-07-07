@@ -71,7 +71,7 @@ module.exports = {
       },
       'mobileLS': '640px',
       // => @media (min-width: 640px) { ... }
-      'tablets': '768px',
+      'tablets': '769px',
       // => @media (min-width: 768px) { ... }
       'laptops': '992px',
       // => @media (min-width: 992px) { ... }

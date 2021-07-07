@@ -19,7 +19,7 @@ const App = () => {
   });
 
   const isTabletDevice = useMediaQuery({
-    query: "(min-device-width: 768px)",
+    query: "(min-device-width: 769px)",
   });
 
   const isLaptop = useMediaQuery({
@@ -33,6 +33,12 @@ const App = () => {
   const isBigScreen = useMediaQuery({
     query: "(min-device-width: 1536px )",
   });
+
+  console.log("is mobile LS: ", isMobileLS)
+  console.log("is isTabletDevice: ", isTabletDevice)
+  console.log("is isLaptop: ", isLaptop)
+  console.log("is isDesktop: ", isDesktop)
+  console.log("is isBigScreen: ", isBigScreen)
 
   // const initialState = {
   //   mobile: isMobile,
