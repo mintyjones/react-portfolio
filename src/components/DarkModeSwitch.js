@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import FormGroup from "@material-ui/core/FormGroup";
 import Switch from "@material-ui/core/Switch";
@@ -41,11 +41,19 @@ const AntSwitch = withStyles((theme) => ({
 }))(Switch);
 
 export default function CustomizedSwitches() {
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     checkedC: true
   });
 
+  useEffect(() => {
+    if (localStorage.theme && localStorage.theme === 'dark') {
+      document.documentElement.classList.add('dark')
+      setState({ ...state, checkedC: false });
+    }
+  }, [])
+
   const toggleMode = () => {
+    
     if(localStorage.theme === undefined){
       localStorage.theme = 'dark';
     }

@@ -36,18 +36,6 @@ const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
                 <div className="font-Lobster text-2xl px-1 mt-20 whitespace-pre-wrap tablets:text-5xl tablets:text-left tablets:pl-[300px] tablets:pt-[5vh] ">
                     <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
                 </div>
-                {/* <section className="pt-24 flex flex-col tablets:flex-row-reverse tablets:justify-center tablets:w-full">
-                    <div className="font-Lobster text-2xl px-1 whitespace-pre-wrap tablets:text-5xl tablets:pl-32 tablets:pr-20 tablets:text-right">
-                        <Tagline text={'“I’m down to one coffee a day. Still trying to give up the sugar!!”'}/>
-                    </div>
-                        {isTabletDevice ? 
-                        <div className="tablets:-mt-16">
-                            <QuoteLine width={lineWidth['sml']} height={lineHeight['med']} rotation={lineRotation['-70']}/>
-                        </div>
-                        :
-                        <QuoteLine width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['45']}/>
-                        }
-                </section> */}
             </div>
 
             {/* Other Projects */}
@@ -90,18 +78,6 @@ const Projects = ({isTabletDevice, lineWidth, lineHeight, lineRotation}) => {
                 <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap mt-20 flex justify-center tablets:mt-0 tablets:text-5xl tablets:px-12 tablets:pt-[15vh] tablets:text-center">
                     <Tagline text={'"They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict."'}/>
                 </div>
-                {/* <section className="pt-16 tablets:pt-24 tablets:flex tablets:flex-col-reverse">
-                    <div className="font-Lobster text-2xl pl-12 whitespace-pre-wrap flex justify-center tablets:text-5xl tablets:pr-[26vw] tablets:text-left">
-                        <Tagline text={'They say Ruby is an “elegant” language. Unfortunately, it’s not very strict. I like strict.'}/>
-                    </div>
-                    <div className="pl-[11.5rem] -mt-8 tablets:pl-[48rem]">
-                        {isTabletDevice ? 
-                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['med']} rotation={lineRotation['70']}/>
-                        :
-                        <QuoteLine className="-left-28" width={lineWidth['sml']} height={lineHeight['sml']} rotation={lineRotation['-70']}/>
-                        }
-                    </div>
-                </section> */}
                 <img className="transform origin-top scale-80 tablets:absolute tablets:-top-100 tablets:left-[41.8vw] tablets:scale-[1.2] z-20" src={MyFaceGreyThought} alt="face" />
             </div>
         </>

@@ -1,7 +1,4 @@
 import React from 'react'
-import FaceMain from '../assets/images/myface.svg'
-import FaceGrey from '../assets/images/myface_grey.svg'
-import FaceWhite from '../assets/images/myface_grey.svg'
 
 const Face = ({face}) => {
     return (

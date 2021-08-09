@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { useMediaQuery } from 'react-responsive'
 import Header from './components/Header'
 import DotPattern from './assets/images/dot_pattern.svg'
@@ -40,35 +39,6 @@ const App = () => {
   console.log("is isDesktop: ", isDesktop)
   console.log("is isBigScreen: ", isBigScreen)
 
-  // const initialState = {
-  //   mobile: isMobile,
-  //   tablet: isTabletDevice,
-  //   laptop: isLaptop,
-  //   desktop: isDesktop,
-  //   bigscreen: isBigScreen
-  // }
-
-  // const {store, dispatch} =  useReducer(reducer, initialState)
-  // const { mobile, tablet, laptop, desktop, bigscreen}
-  const lineWidth = {
-    'sml': 'w-1',
-    'med': 'w-8',
-    'big': 'w-16'
-  }
-
-  const lineHeight = {
-    'sml': 'h-16',
-    'med': 'h-28',
-    'big': 'h-44'
-  }
-
-  const lineRotation = {
-    '45': 'rotate-45',
-    '70': 'rotate-70',
-    '-70': '-rotate-70',
-    '-315': '-rotate-315'
-  }
-
   let dotBack = '';
   (isTabletDevice) ? dotBack='' : dotBack = 'bg-dot-pattern-sml'
 
@@ -77,10 +47,10 @@ const App = () => {
     <div className="flex flex-col w-screen bg-white dark:bg-primaryColDark">
       <Header mobileLS={isMobileLS}/>
       <main>
-        <Home dotBack={dotBack} DotPattern={DotPattern} isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <About tablet={isTabletDevice} dotBack={dotBack} DotPattern={DotPattern} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <Projects isTabletDevice={isTabletDevice} lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
-        <Experience isTabletDevice={isTabletDevice} DotPattern={DotPattern}  lineWidth={lineWidth} lineHeight={lineHeight} lineRotation={lineRotation}/>
+        <Home dotBack={dotBack} DotPattern={DotPattern} isTabletDevice={isTabletDevice}/>
+        <About tablet={isTabletDevice} dotBack={dotBack} DotPattern={DotPattern}/>
+        <Projects isTabletDevice={isTabletDevice}/>
+        <Experience isTabletDevice={isTabletDevice} DotPattern={DotPattern} />
         <ContactForm/>
       </main>
       { !isMobileLS &&
